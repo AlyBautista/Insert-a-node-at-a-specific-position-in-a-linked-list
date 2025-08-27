@@ -1,1 +1,1 @@
-# Insert-a-node-at-a-specific-position-in-a-linked-list
+I first create a new node with the given data. If the position is zero, I make the new node point to the current head and return it as the new head. If not, I move through the list until I reach the node just before the given position. Then I link the new node to the next node, and update the previous node to point to the new node. Finally, I return the head of the updated list.
